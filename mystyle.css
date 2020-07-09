@@ -5,9 +5,13 @@ body {
   width: 100%;
 }
 
-.header {
+#header {
   padding:50px;
   text-align:center;
   background:#yellow;
   color: brown;
+}
+
+#grad {
+  background-image: linear-gradient(to right, red , yellow);
 }
