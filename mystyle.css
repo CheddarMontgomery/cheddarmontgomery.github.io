@@ -1,14 +1,37 @@
-
 body {
+	
   background-image: linear-gradient(to right, #ffe3dd , #dcfff4);
   margin: auto;
   width: 100%;
 }
+
+h1 { 
+	font-family: 'Grenze Gotisch';
+	text-align: center;
+	margin: auto;
+	border: 3px dashed green;
+ }
 
 #header {
   padding:50px;
   text-align:center;
   background:#yellow;
   color: brown;
+}
+
+#back1 {
+   position: relative;
+}
+
+#textbackground {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   z-index: -1;
+   opacity: .3;
+   color: lightblue;
+   
 }
 
