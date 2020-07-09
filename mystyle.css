@@ -7,10 +7,42 @@ body {
 
 h1 { 
 	font-family: 'Grenze Gotisch';
+	
 	text-align: center;
 	margin: auto;
-	border: 3px dashed green;
+	border: 3px inset grey;
  }
+
+ #pizzahead { 
+ 	margin:auto;
+ 	width: 750px;
+  height: 50px;
+  background: #eee;
+  border: 20px solid transparent;
+  -moz-border-image: -moz-linear-gradient(top, #ffe3dd 0%, #dcfff4 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, #ffe3dd 0%, #dcfff4 100%);
+  border-image: linear-gradient(to bottom, #ffe3dd 0%, #dcfff4 100%);
+  border-image-slice: 1;
+  }
+
+.blinking {
+    animation: opacity 10s ease-in-out infinite;
+  opacity: 1;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 
 #header {
   padding:50px;
@@ -21,17 +53,21 @@ h1 {
 
 #back1 {
    position: relative;
+
 }
 
 #textbackground {
    position: absolute;
+   
+   margin: auto;
    top: 0;
    left: 0;
    bottom: 0;
    right: 0;
    z-index: -1;
-   opacity: .3;
+   opacity: .5;
    color: lightblue;
+
    
 }
 
