@@ -1,6 +1,6 @@
 
 body {
-  background-color: lightblue;
+  background-image: linear-gradient(to right, red , yellow);
   margin: auto;
   width: 100%;
 }
@@ -12,6 +12,3 @@ body {
   color: brown;
 }
 
-#grad {
-  background-image: linear-gradient(to right, red , yellow);
-}
