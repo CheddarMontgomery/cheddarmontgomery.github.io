@@ -1,6 +1,6 @@
 
 body {
-  background-image: linear-gradient(to right, red , yellow);
+  background-image: linear-gradient(to right, #ffe3dd , #dcfff4);
   margin: auto;
   width: 100%;
 }
