@@ -19,6 +19,28 @@ h1 {
 
 }
 
+#cone {
+  animation: colorchange 15s linear 1s infinite; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 15s linear 0s infinite alternate; /* Chrome and Safari */
+}
+
+}
+@keyframes colorchange
+    {
+      0%   {border-top-color: red; color: cyan;}
+      33%  {border-top-color: purple; color: magenta;}
+      66%  {border-top-color: blue; color: yellow;}
+      100% {border-top-color: red; color: cyan;}
+   }
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {border-top-color: red; color: cyan;}
+      33%  {border-top-color: purple; color: magenta;}
+      66%  {border-top-color: blue; color: yellow;}
+      100% {border-top-color: red; color: cyan;}
+   }
 
 
  #pizzahead { 
