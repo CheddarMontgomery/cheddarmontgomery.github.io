@@ -7,11 +7,19 @@ body {
 
 h1 { 
 	font-family: 'Grenze Gotisch';
-	
+
 	text-align: center;
 	margin: auto;
 	border: 3px inset grey;
  }
+
+#audiojs_wrapper1 {
+  margin:auto;
+  margin-bottom: 5px;
+
+}
+
+
 
  #pizzahead { 
  	margin:auto;
@@ -26,7 +34,7 @@ h1 {
   }
 
 .blinking {
-    animation: opacity 8s ease-in-out infinite;
+    animation: opacity 7s ease-in-out infinite;
   opacity: 1;
 }
 
@@ -36,7 +44,7 @@ h1 {
   }
 
   50% {
-    opacity: 0
+    opacity: 0.1;
   }
 
   100% {
@@ -67,6 +75,8 @@ h1 {
    z-index: -1;
    opacity: .5;
    color: lightblue;
+   font-family: 'Grenze Gotisch';
+   font-size: 24px;
 
    
 }
