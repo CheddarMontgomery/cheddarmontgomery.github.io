@@ -7,6 +7,7 @@ body {
 
 h1 { 
 	font-family: 'Grenze Gotisch';
+  position: top;
 
 	text-align: center;
 	margin: auto;
@@ -20,6 +21,11 @@ h1 {
 }
 
 #cone {
+  animation: colorchange 15s linear 1s infinite; 
+      -webkit-animation: colorchange 15s linear 0s infinite alternate; /* Chrome and Safari */
+}
+
+#cone2 {
   animation: colorchange 15s linear 1s infinite; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
       -webkit-animation: colorchange 15s linear 0s infinite alternate; /* Chrome and Safari */
@@ -40,6 +46,38 @@ h1 {
       33%  {border-top-color: purple; color: magenta;}
       66%  {border-top-color: blue; color: yellow;}
       100% {border-top-color: red; color: cyan;}
+   }
+
+@keyframes colorchange3
+    {
+      0%   {background-color: red; color: cyan;}
+      33%  {background-color: purple; color: magenta;}
+      66%  {background-color: blue; color: yellow;}
+      100% {background-color: red; color: cyan;}
+   }
+
+@-webkit-keyframes colorchange3 /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background-color: red; color: cyan;}
+      33%  {background-color: purple; color: magenta;}
+      66%  {background-color: blue; color: yellow;}
+      100% {background-color: red; color: cyan;}
+   }
+
+   @keyframes colorchange2
+    {
+      0%   {background-color: #ff0090; color: cyan;}
+      33%  {background-color: purple; color: magenta;}
+      66%  {background-color: #00fff2; color: yellow;}
+      100% {background-color: #ff0090; color: cyan;}
+   }
+
+@-webkit-keyframes colorchange2 /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background-color: #ff0090; color: cyan;}
+      33%  {background-color: purple; color: magenta;}
+      66%  {background-color: #00fff2; color: yellow;}
+      100% {background-color: #ff0090; color: cyan;}
    }
 
 
@@ -70,7 +108,7 @@ h1 {
   }
 
   100% {
-    opacity: 1;
+    opacity: 2;
   }
 }
 
@@ -103,3 +141,293 @@ h1 {
    
 }
 
+.chart {
+  
+    position:absolute;
+    width:500px;
+    height:250px;
+
+
+}
+.hold {
+    position:absolute;
+    
+    width:200px;
+    height:200px;
+    clip:rect(0px,200px,200px,100px);
+    left: 400px;
+
+
+    
+}
+.hold2 {
+    position:absolute;
+    
+    width: 200px;
+    height:200px;
+    clip:rect(0px,200px,200px,100px);
+    right: 400px;    
+}
+
+.hold3 {
+    position:absolute;
+    
+    width: 200px;
+    height:200px;
+    clip:rect(0px,200px,200px,100px);
+    right: 400px;
+    
+
+}
+
+.hold4 {
+    position:absolute;
+    
+    width: 200px;
+    height:200px;
+    clip:rect(0px,200px,200px,100px);
+    left: 400px;
+    
+
+}
+
+.hold5 {
+    position:absolute;
+    
+    width: 400px;
+    height:400px;
+    clip:rect(0px,200px,200px,100px);
+    right:300px;
+    top:3100px;
+   
+
+}
+
+.Pizza {
+    position:absolute;
+/*  width:100px;
+    height:200px;
+    border-radius:100px 0 0 100px;
+    transform-origin:right center; */
+    width:200px;
+    height:200px;
+    clip:rect(0px,100px,200px,0px);
+    border-radius:100px; 
+    
+    
+}
+
+.Pizza2 {
+    position:absolute;
+/*  width:100px;
+    height:200px;
+    border-radius:100px 0 0 100px;
+    transform-origin:right center; */
+    width:100px;
+    height:100px;
+    clip:rect(0px,100px,200px,0px);
+    border-radius:100px; 
+    right:70px;
+    z-index: 10;
+
+}
+
+.Pizza3 {
+    position:absolute;
+/*  width:100px;
+    height:200px;
+    border-radius:100px 0 0 100px;
+    transform-origin:right center; */
+    width:150px;
+    height:150px;
+    clip:rect(0px,100px,200px,0px);
+    border-radius:100px; 
+    right:70px;
+    top:50px;
+
+    
+
+   
+    z-index: 11;
+
+}
+
+
+.PizzaContainer {
+          height: 100px;
+          width: 100px;
+          float: right;
+          margin: 0 0 20px 20px;
+     }
+     #PizzaSliceYellow .Pizza {
+      animation: colorchange2 6s linear 1s infinite; 
+      -webkit-animation: colorchange2 6s linear 0s infinite alternate;
+          background-color: #f2cd00;
+          transform:rotate(60deg);
+     }
+     #PizzaSliceBlue {
+          transform:rotate(60deg);
+     }
+     #PizzaSliceBlue .Pizza {
+      animation: colorchange2 8s linear 1s infinite; 
+      -webkit-animation: colorchange2 8s linear 0s infinite alternate;
+          background-color: #002095;
+          transform:rotate(60deg);
+     }
+     #PizzaSliceRed {
+          transform:rotate(120deg);
+     }
+     #PizzaSliceRed .Pizza {
+      animation: colorchange2 10s linear 1s infinite; 
+      -webkit-animation: colorchange2 10s linear 0s infinite alternate;
+          background-color: #950000;
+          transform:rotate(60deg);
+     }
+      #PizzaSliceOlive {
+          transform:rotate(180deg);
+     }
+     #PizzaSliceOlive .Pizza {
+      animation: colorchange2 12s linear 1s infinite; 
+      -webkit-animation: colorchange2 12s linear 0s infinite alternate;
+          background-color: #a5a000;
+          transform:rotate(60deg);
+     }
+     #PizzaSliceOrange {
+          transform:rotate(240deg);
+     }
+     #PizzaSliceOrange .Pizza {
+      animation: colorchange2 14s linear 1s infinite; 
+      -webkit-animation: colorchange2 14s linear 0s infinite alternate;
+          background-color: #f5a010;
+          transform:rotate(60deg);
+     }
+      #PizzaSliceLime {
+          transform:rotate(300deg);
+     }
+     #PizzaSliceLime .Pizza {
+      animation: colorchange2 16s linear 1s infinite; 
+      -webkit-animation: colorchange2 16s linear 0s infinite alternate;
+          background-color: #99FF00;
+          transform:rotate(60deg);
+     }
+
+
+#PizzaSliceYellow .Pizza2 {
+      animation: colorchange2 3s linear 1s infinite; 
+      -webkit-animation: colorchange2 3s linear 0s infinite alternate;
+          background-color: #f2cd00;
+          transform:rotate(60deg);
+     }
+     #PizzaSliceBlue {
+          transform:rotate(60deg);
+     }
+     #PizzaSliceBlue .Pizza2 {
+      animation: colorchange2 4s linear 1s infinite; 
+      -webkit-animation: colorchange2 4s linear 0s infinite alternate;
+          background-color: #002095;
+          transform:rotate(60deg);
+     }
+     #PizzaSliceRed {
+          transform:rotate(120deg);
+     }
+     #PizzaSliceRed .Pizza2 {
+      animation: colorchange2 5s linear 1s infinite; 
+      -webkit-animation: colorchange2 5s linear 0s infinite alternate;
+          background-color: #950000;
+          transform:rotate(60deg);
+     }
+      #PizzaSliceOlive {
+          transform:rotate(180deg);
+     }
+     #PizzaSliceOlive .Pizza2 {
+      animation: colorchange2 6s linear 1s infinite; 
+      -webkit-animation: colorchange2 6s linear 0s infinite alternate;
+          background-color: #a5a000;
+          transform:rotate(60deg);
+     }
+     #PizzaSliceOrange {
+          transform:rotate(240deg);
+     }
+     #PizzaSliceOrange .Pizza2 {
+      animation: colorchange2 7s linear 1s infinite; 
+      -webkit-animation: colorchange2 7s linear 0s infinite alternate;
+          background-color: #f5a010;
+          transform:rotate(60deg);
+     }
+      #PizzaSliceLime {
+          transform:rotate(300deg);
+     }
+     #PizzaSliceLime .Pizza2 {
+      animation: colorchange2 8s linear 1s infinite; 
+      -webkit-animation: colorchange2 8s linear 0s infinite alternate;
+          background-color: #99FF00;
+          transform:rotate(60deg);
+     }
+
+#PizzaSliceYellow .Pizza3 {
+      animation: colorchange2 3s linear 1s infinite; 
+      -webkit-animation: colorchange2 3s linear 0s infinite alternate;
+          background-color: #f2cd00;
+          transform:rotate(60deg);
+     }
+     #PizzaSliceBlue {
+          transform:rotate(60deg);
+     }
+     #PizzaSliceBlue .Pizza3 {
+      animation: colorchange2 4s linear 1s infinite; 
+      -webkit-animation: colorchange2 4s linear 0s infinite alternate;
+          background-color: #002095;
+          transform:rotate(60deg);
+     }
+     #PizzaSliceRed {
+          transform:rotate(120deg);
+     }
+     #PizzaSliceRed .Pizza3 {
+      animation: colorchange2 5s linear 1s infinite; 
+      -webkit-animation: colorchange2 5s linear 0s infinite alternate;
+          background-color: #950000;
+          transform:rotate(60deg);
+     }
+      #PizzaSliceOlive {
+          transform:rotate(180deg);
+     }
+     #PizzaSliceOlive .Pizza3 {
+      animation: colorchange2 6s linear 1s infinite; 
+      -webkit-animation: colorchange2 6s linear 0s infinite alternate;
+          background-color: #a5a000;
+          transform:rotate(60deg);
+     }
+     #PizzaSliceOrange {
+          transform:rotate(240deg);
+     }
+     #PizzaSliceOrange .Pizza3 {
+      animation: colorchange2 7s linear 1s infinite; 
+      -webkit-animation: colorchange2 7s linear 0s infinite alternate;
+          background-color: #f5a010;
+          transform:rotate(60deg);
+     }
+      #PizzaSliceLime {
+          transform:rotate(300deg);
+     }
+     #PizzaSliceLime .Pizza3 {
+      animation: colorchange2 8s linear 1s infinite; 
+      -webkit-animation: colorchange2 8s linear 0s infinite alternate;
+          background-color: #99FF00;
+          transform:rotate(60deg);
+     }
+
+#circbottom {
+       
+      position:absolute;
+     height:90px;
+     width:180px;
+     border-radius: 0 500px 90px 90px;
+     background: green;
+     right: 45%;
+     top: 61%;
+     animation: colorchange3 15s linear 1s infinite; 
+      -webkit-animation: colorchange3 15s linear 1s infinite alternate;
+    
+}
+
+     
