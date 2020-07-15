@@ -3,6 +3,7 @@ body {
   background-image: linear-gradient(to right, #ffe3dd , #dcfff4);
   margin: auto;
   width: 100%;
+  overflow:auto;
 }
 
 h1 { 
@@ -16,7 +17,7 @@ h1 {
 
 #audiojs_wrapper1 {
   margin:auto;
-  margin-bottom: 5px;
+  margin-bottom: 50px;
 
 }
 
@@ -110,6 +111,8 @@ h1 {
   100% {
     opacity: 2;
   }
+
+
 }
 
 #header {
@@ -213,6 +216,7 @@ h1 {
     height:200px;
     clip:rect(0px,100px,200px,0px);
     border-radius:100px; 
+    z-index: 4;
     
     
 }
@@ -258,6 +262,7 @@ h1 {
           width: 100px;
           float: right;
           margin: 0 0 20px 20px;
+
      }
      #PizzaSliceYellow .Pizza {
       animation: colorchange2 6s linear 1s infinite; 
@@ -421,13 +426,62 @@ h1 {
       position:absolute;
      height:90px;
      width:180px;
-     border-radius: 0 500px 90px 90px;
+     border-radius: 90px 500px 90px 90px;
      background: green;
+     margin-top: 5%;
      right: 45%;
-     top: 61%;
+     top: 55%;
      animation: colorchange3 15s linear 1s infinite; 
       -webkit-animation: colorchange3 15s linear 1s infinite alternate;
+      z-index: 9;
+
     
 }
+
+
+
+#snowflake2 {
+  position:absolute;
+font-color:white;
+  z-index:-5;
+}
+.snowflake {
+  position:absolute;
+ 
+  
+  filter: invert(180);
+  font-size: 5.8em;
+  font-family: 'Pizza', 'Grenze Gotisch';
+  text-shadow: 0 0 11px #000;
+  opacity: .02;
+z-index: 1;
+animation: colorchange3 15s linear 1s infinite; 
+      -webkit-animation: colorchange3 15s linear 1s infinite alternate;
+
+      
+      
+      
+
+}
+
+
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}
+@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}
+@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}
+@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}
+.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}
+.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}
+.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}
+.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}
+.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}
+.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}
+.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}
+.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}
+.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}
+.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}
+.snowflake:nth-of-type(9){left:85%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
+.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}
+.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+
 
      
