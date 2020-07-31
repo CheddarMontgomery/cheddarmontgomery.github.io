@@ -16,12 +16,7 @@ h1 {
 
  }
 
-#audiojs_wrapper1 {
-  margin:auto;
-  margin-bottom: 5%;
 
-
-}
 
 
 
@@ -908,12 +903,12 @@ div#amplitude-right {
         margin-top: 15px; }
     div#amplitude-right div.song div.play-button-container {
       display: none;
-      background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/list-play-light.png") no-repeat;
+      background: url("https://github.com/CheddarMontgomery/cheddarmontgomery.github.io/tree/master/blue-playlist/img/list-play-light.png") no-repeat;
       width: 22px;
       height: 22px;
       margin-top: 10px; }
     div#amplitude-right div.song div.play-button-container:hover {
-      background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/list-play-hover.png") no-repeat; }
+      background: url("https://github.com/CheddarMontgomery/cheddarmontgomery.github.io/tree/master/blue-playlist/img/list-play-hover.png") no-repeat; }
     div#amplitude-right div.song.amplitude-active-song-container div.song-now-playing-icon-container img.now-playing {
       display: block; }
     div#amplitude-right div.song.amplitude-active-song-container:hover div.play-button-container {
@@ -1170,18 +1165,18 @@ div#control-container {
       height: 19px;
       cursor: pointer; }
       div#control-container div#repeat-container div#repeat.amplitude-repeat-off {
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/repeat-off.svg"); }
+        background: url("https://github.com/CheddarMontgomery/cheddarmontgomery.github.io/tree/master/blue-playlist/img/repeat-off.svg"); }
       div#control-container div#repeat-container div#repeat.amplitude-repeat-on {
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/repeat-on.svg"); }
+        background: url("https://github.com/CheddarMontgomery/cheddarmontgomery.github.io/tree/master/blue-playlist/img/repeat-on.svg"); }
     div#control-container div#repeat-container div#shuffle {
       width: 23px;
       height: 19px;
       cursor: pointer;
       float: right; }
       div#control-container div#repeat-container div#shuffle.amplitude-shuffle-off {
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/shuffle-off.svg"); }
+        background: url("https://github.com/CheddarMontgomery/cheddarmontgomery.github.io/tree/master/blue-playlist/img/shuffle-off.svg"); }
       div#control-container div#repeat-container div#shuffle.amplitude-shuffle-on {
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/shuffle-on.svg"); }
+        background: url("https://github.com/CheddarMontgomery/cheddarmontgomery.github.io/tree/master/blue-playlist/img/shuffle-on.svg"); }
   @media all and (-ms-high-contrast: none) {
     div#control-container *::-ms-backdrop, div#control-container div#control-container {
       margin-top: 40px;
@@ -1197,7 +1192,7 @@ div#control-container {
         width: 40px;
         height: 40px;
         cursor: pointer;
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/prev.svg");
+        background: url("https://github.com/CheddarMontgomery/cheddarmontgomery.github.io/tree/master/blue-playlist/img/prev.svg");
         background-repeat: no-repeat;
         float: left;
         margin-top: 10px;
@@ -1209,15 +1204,15 @@ div#control-container {
         cursor: pointer;
         float: left; }
         div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-paused {
-          background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/play.svg"); }
+          background: url("https://github.com/CheddarMontgomery/cheddarmontgomery.github.io/tree/master/blue-playlist/img/play.svg"); }
         div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-playing {
-          background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/pause.svg"); }
+          background: url("https://github.com/CheddarMontgomery/cheddarmontgomery.github.io/tree/master/blue-playlist/img/pause.svg"); }
       div#control-container div#central-control-container div#central-controls div#next {
         display: inline-block;
         width: 40px;
         height: 40px;
         cursor: pointer;
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/next.svg");
+        background: url("https://github.com/CheddarMontgomery/cheddarmontgomery.github.io/tree/master/blue-playlist/img/next.svg");
         background-repeat: no-repeat;
         float: left;
         margin-top: 10px;
@@ -1232,19 +1227,19 @@ div#control-container {
       cursor: pointer;
       margin: auto; }
       div#control-container div#volume-container div#shuffle-right.amplitude-shuffle-off {
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/shuffle-off.svg"); }
+        background: url("https://github.com/CheddarMontgomery/cheddarmontgomery.github.io/tree/master/blue-playlist/img/shuffle-off.svg"); }
       div#control-container div#volume-container div#shuffle-right.amplitude-shuffle-on {
-        background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/shuffle-on.svg"); }
+        background: url("https://github.com/CheddarMontgomery/cheddarmontgomery.github.io/tree/master/blue-playlist/img/shuffle-on.svg"); }
   div#control-container div.amplitude-mute {
     cursor: pointer;
     width: 25px;
     height: 19px;
     float: left; }
     div#control-container div.amplitude-mute.amplitude-not-muted {
-      background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-players/volume.svg");
+      background: url("https://github.com/CheddarMontgomery/cheddarmontgomery.github.io/tree/master/blue-playlist/img/volume.svg");
       background-repeat: no-repeat; }
     div#control-container div.amplitude-mute.amplitude-muted {
-      background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/mute.svg");
+      background: url("https://github.com/CheddarMontgomery/cheddarmontgomery.github.io/tree/master/blue-playlist/img/mute.svg");
       background-repeat: no-repeat; }
 
 div#control-container:after {
