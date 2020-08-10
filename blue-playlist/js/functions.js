@@ -110,8 +110,8 @@ Amplitude.init({
 		},
 		
 {			"name": "operationDesignator",
-			"artist": "Jimkata",
-			"album": "Die Digital",
+			"artist": "MACHINES",
+			"album": "ROBITS",
 			"url": "https://420fatbeats.s3.amazonaws.com/U+OPERATIONDESIGNATOR4.mp3",
 			"cover_art_url": "https://media.giphy.com/media/3o6Ztb45EYezY9x9gQ/giphy.gif"
 		},
@@ -130,5 +130,7 @@ Amplitude.init({
 			"cover_art_url": "https://media.giphy.com/media/xTiTnt0GGd5p3HpDBC/giphy.gif"
 		},
 		
-	]
+	],
+	
+	"autoplay": true
 });
