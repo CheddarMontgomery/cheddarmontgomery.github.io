@@ -57,7 +57,7 @@ for( var i = 0; i < songElements.length; i++ ){
 	Initializes AmplitudeJS
 */
 Amplitude.init({
-	continue_next: false,
+	continue_next: true,
 	"songs": [
 		{
 			"name": "Bee-Knot-May (feat PIE PIE)",
