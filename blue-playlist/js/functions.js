@@ -71,7 +71,7 @@ Amplitude.init({
 			"artist": "Pizza Chrustmas",
 			"album": "Ask The Chef",
 			"url": "https://420fatbeats.s3.amazonaws.com/snoday4buttplay.mp3",
-			"cover_art_url": "https://media.giphy.com/media/26FL2a7Y4ASW0T3La/giphy.gif"
+			"cover_art_url": "https://media.giphy.com/media/l4JzidBEieeJd4Q6I/giphy.gif"
 		},
 		{
 			"name": "Back2me",
