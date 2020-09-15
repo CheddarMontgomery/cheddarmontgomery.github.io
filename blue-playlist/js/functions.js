@@ -132,5 +132,5 @@ Amplitude.init({
 		
 	],
 	
-	"autoplay": true
+	"autoplay": false
 });
