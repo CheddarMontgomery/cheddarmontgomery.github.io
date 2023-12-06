@@ -829,7 +829,7 @@ jody {
   line-height: 1.875em;
 }
 
-.container {
+.totorocontainer {
   margin: 100px auto;
   padding: 30px;
   max-width: 500px;
@@ -1075,7 +1075,7 @@ jody {
   top: 10px;
   width: 70px;
 }
-#totoro .body {
+#totoro .jody {
   position: relative;
   top: 50px;
   width: 400px;
