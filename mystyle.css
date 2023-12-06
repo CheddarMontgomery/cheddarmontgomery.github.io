@@ -833,12 +833,18 @@ jody {
 }
 
 .totorocontainer {
+	animation: colorchange 15s linear 1s infinite; 
+      -webkit-animation: colorchange 15s linear 0s infinite alternate; /* Chrome and Safari */
+      opacity: 1;
   margin: 100px auto;
   padding: 30px;
   max-width: 500px;
 }
 
 #totoro {
+	animation: colorchange 15s linear 1s infinite; 
+      -webkit-animation: colorchange 15s linear 0s infinite alternate; /* Chrome and Safari */
+      opacity: 1;
   position: relative;
   cursor: pointer;
 }
@@ -1100,6 +1106,9 @@ jody {
   display: inline-block;
 }
 #totoro .belly {
+	animation: colorchange 15s linear 1s infinite; 
+      -webkit-animation: colorchange 15s linear 0s infinite alternate; /* Chrome and Safari */
+      opacity: 1;
   position: absolute;
   bottom: 10px;
   left: 50%;
